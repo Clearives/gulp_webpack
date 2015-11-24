@@ -28,6 +28,7 @@ $ gulp dev
 
 $ gulp watch   监控代码自动更新开发环境
 
+```
 
 # publish(正式版本)
 > 代码混淆，md5
@@ -35,6 +36,8 @@ $ gulp watch   监控代码自动更新开发环境
 ```shell
 
 $ gulp publish
+
+```
 
 
 
