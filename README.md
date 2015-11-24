@@ -1,4 +1,4 @@
-# 使用gulp打包单页H5项目
+# h5-gulp-webpack
 
 用于h5单页项目的基本文件结构以及gulp任务流
 
