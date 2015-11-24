@@ -1,5 +1,5 @@
 {
-  "name": "gulp_webpack",
+  "name": "h5-gulp-webpack",
   "version": "1.0.0",
   "description": "A project use gulp && webpack",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Clearives/gulp_webpack.git"
+    "url": "https://github.com/Clearives/h5-gulp-webpack.git"
   },
   "keywords": [
     "gulp",
