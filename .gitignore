@@ -1,0 +1,6 @@
+/node_modules
+/.idea
+/webapp/dist
+/webapp/dev
+/webapp/src/js/model
+/webapp/src/js/lib
