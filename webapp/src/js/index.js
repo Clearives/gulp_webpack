@@ -14,17 +14,4 @@ require('../css/style/test.css');
 ;(function () {
     page.initPage(0);
 
-    $('.p1').find('.btn').on('click', function () {
-        page.initPage(2);
-    });
-    $('.p2').find('.btn').on('click', function () {
-        page.initPage(3);
-    });
-    $('.p3').find('.btn').on('click', function () {
-        page.initPage(2);
-    });
-    $('.p3').find('.btn1').on('click', function () {
-        page.initPage(4);
-    });
-
 })();
