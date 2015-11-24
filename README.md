@@ -1,12 +1,12 @@
 # h5-gulp-webpack
 
-ÓÃÓÚh5µ¥Ò³ÏîÄ¿µÄ»ù±¾ÎÄ¼þ½á¹¹ÒÔ¼°gulpÈÎÎñÁ÷
+ç”¨äºŽh5å•é¡µé¡¹ç›®çš„åŸºæœ¬æ–‡ä»¶ç»“æž„ä»¥åŠgulpä»»åŠ¡æµ
 
 # Install
 
 ```shell
 
-$ git clone https://github.com/Clearives/gulp_webpack.git
+$ git clone https://github.com/Clearives/h5-gulp-webpack.git
 $ npm install
 
 ```
@@ -20,18 +20,18 @@ $ http-server
 ```
 
 
-# dev(¿ª·¢°æ±¾)
+# dev(å¼€å‘ç‰ˆæœ¬)
 
 ```shell
 
 $ gulp dev
 
-$ gulp watch   ¼à¿Ø´úÂë×Ô¶¯¸üÐÂ¿ª·¢»·¾³
+$ gulp watch   ç›‘æŽ§ä»£ç è‡ªåŠ¨æ›´æ–°å¼€å‘çŽ¯å¢ƒ
 
 ```
 
-# publish(ÕýÊ½°æ±¾)
-> ´úÂë»ìÏý£¬md5
+# publish(æ­£å¼ç‰ˆæœ¬)
+> ä»£ç æ··æ·†ï¼Œmd5
 
 ```shell
 
