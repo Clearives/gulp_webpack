@@ -2,7 +2,7 @@
 
 用于h5单页项目的基本文件结构以及gulp任务流
 
-# Install
+### Install
 
 ```shell
 
@@ -11,16 +11,7 @@ $ npm install
 
 ```
 
-# Start
-
-```shell
-
-$ http-server
-
-```
-
-
-# dev(开发版本)
+### dev(开发版本)
 
 ```shell
 
@@ -30,7 +21,7 @@ $ gulp watch   监控代码自动更新开发环境
 
 ```
 
-# publish(正式版本)
+### publish(正式版本)
 > 代码混淆，md5
 
 ```shell
@@ -38,6 +29,18 @@ $ gulp watch   监控代码自动更新开发环境
 $ gulp publish
 
 ```
+
+### Start
+
+```shell
+
+$ npm start   启动生产环境服务器
+$ node app    启动开发环境服务器
+
+```
+
+
+
 
 
 

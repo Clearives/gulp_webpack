@@ -4,7 +4,8 @@
   "description": "A project use gulp && webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production&&node app"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "gulp-rev-collector": "^1.0.2",
     "gulp-uglify": "^1.5.1",
     "gulp-webpack": "^1.5.0",
+    "koa": "^1.1.2",
+    "koa-static": "^1.5.2",
     "less": "^2.5.3",
     "less-loader": "^2.2.1",
     "run-sequence": "^1.1.5",

@@ -13,5 +13,4 @@ require('../css/style/test.css');
 
 ;(function () {
     page.initPage(0);
-
 })();
