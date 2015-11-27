@@ -34,8 +34,8 @@ $ gulp publish
 
 ```shell
 
-$ npm start   启动生产环境服务器
-$ node app    启动开发环境服务器
+$ npm run start   启动生产环境服务器
+$ npm run dev     启动开发环境服务器
 
 ```
 
