@@ -9,6 +9,9 @@ var concat = require('gulp-concat');
 var clean = require('gulp-clean');
 var shrink = require('gulp-cssshrink');
 var webpack = require('webpack-stream');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+var cache = require('gulp-cache');
 var rev = require('gulp-rev');
 var revCollector = require('gulp-rev-collector');
 var runSequence = require('run-sequence');
@@ -59,7 +62,12 @@ gulp.task('publish-css', function () {
         .pipe(gulp.dest('./webapp/dist/rev/css'));
 });
 gulp.task('publish-images', function() {
-    return gulp.src(['./webapp/src/images/***'])
+    return gulp.src(['./webapp/src/images/*.{png,jpg,gif,ico}'])
+        .pipe(cache(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        })))
         .pipe(gulp.dest('./webapp/dist/assets/images'))
 });
 gulp.task('publish-html', function () {
