@@ -6,6 +6,7 @@
 var $ = require('./lib/jquery');
 var page = require('./model/page');
 require('./model/loading');
+var CcAudio = require('./model/CcMusic');
 require('../css/style/test.css');
 //console.log = function () { }
 
@@ -13,4 +14,10 @@ require('../css/style/test.css');
 
 ;(function () {
     page.initPage(0);
+
+    $('.img').on('click',function() {
+    	bgm.playMusic(0,function() {
+    		alert(0);
+    	});
+    });
 })();
